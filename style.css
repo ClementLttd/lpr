@@ -1,7 +1,9 @@
 
-html{
+html {
     scroll-behavior:smooth;
 }
+
+
 
 *{
     font-family: 'Poiret One', cursive;
@@ -9,10 +11,11 @@ html{
 }
 
  h1{
-     font-size: 6vw;
+     font-size: 70px;
      margin: 50px;
      font-family: 'Sacramento', cursive;
  }
+ 
  h2{
      font-size: 40px;
      font-family: 'Sacramento', cursive;
@@ -155,6 +158,21 @@ form input, textarea{
     margin-bottom: 40px;
 }
 
+#sidebarCollapse{
+    margin-left: 10vw;
+    margin-top: 1vh;
+    
+}
+
+/* Navbar */
+.navbar{
+    background-color: white;
+    margin-left: 2vw;
+}
+
+#connexion{
+    margin-right: 5vw;
+}
 
 
 /* ---------------------------------------------------
@@ -245,4 +263,24 @@ form input, textarea{
 
 a[data-toggle="collapse"] {
     position: relative;
+}
+
+
+@media screen and (max-width:480px){
+   
+    
+    h1{
+        font-size: 9vw;
+        margin-bottom: 0px;
+    }
+    .navbar{
+        margin-left: 10vw;
+    }
+    #sidebarCollapse{
+        margin-right: 40px;
+        margin-left: 50vw;
+        margin-top: 2px;
+        position: sticky;
+    }
+    
 }
