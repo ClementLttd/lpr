@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poiret+One&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+    <!-- Icones Font Awesome -->
+    <script src="https://kit.fontawesome.com/a6b613feb5.js" crossorigin="anonymous"></script>
+
+
+    <title>Les Petites Robes</title>
+</head>
+
+<body>
+
+    <!-- Sidebar Panier -->
+    <div class="wrapper">
+
+        <nav id="sidebar">
+
+            <div id="dismiss">
+                <i class="fas fa-angle-right"></i>
+            </div>
+
+            <div class="sidebar-header">
+                <h3>Panier</h3>
+                <hr>
+            </div>
+        </nav>
+
+        <!-- Dark Overlay element -->
+        <div class="overlay"></div>
+    </div>
+
+
+
+    <!-- Titre -->
+    <header>
+        <div class="container-lg d-flex justify-content-center" id="accueil">
+            <a href="index.html">
+                <h1>Les Petites Robes</h1>
+            </a>
+        </div>
+    </header>
+
+
+
+    <!-- Navbar -->
+    <div class="container" id="navigationBar">
+        <div class="row">
+            <!-- Bouton inscription -->
+            <div class="col-2" id="connexion">
+                <a class="nav-link" data-toggle="modal" data-target="#modaleLogIn" id="meConnecterBtn"><i
+                        class="far fa-user fa-lg"></i><span id="meConnecterTxt">Me Connecter</span> </a>
+                <div class="modal" id="modaleLogIn" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Me connecter</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- Formulaire inscription modale -->
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="emailLogin">Email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Mot de passe</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+
+                                <a href="resetPassword.html">Mot de passe oublié ?</a>
+                                <button type="button" class="btn btn-primary">Me connecter</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-white bg-white">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                    aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle-navigation">
+                    <i class="fas fa-bars fa-lg"></i>
+                </button>
+                <div class="navbar-collapse justify-content-md-center collapse" id="navbarMenu">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#boutique">Boutique</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#titreAPropos">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <!-- Panier -->
+            <div class="col-1" id="panier">
+                <a class="nav-link" id="sidebarCollapse" href="#"><i class="fas fa-cart-arrow-down fa-lg"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <main>
+        <div class="container-fluid " id="titreCgv">
+            <div class="row">
+                <div class="col-4">
+                    <div id="trait"></div>
+                </div>
+                <div class="col-4 d-flex justify-content-center" id="cgv">
+                    <h2>Conditions Générales de Vente</h2>
+                </div>
+                <div class="col-4">
+                    <div id="trait"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container justify-content" style="text-align: justify;" id="contenuCgv">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis repellendus
+            explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet sapiente odio,
+            facilis repudiandae, ratione assumenda.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis repellendus
+            explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet sapiente odio,
+            facilis repudiandae, ratione assumenda.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis repellendus
+            explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet sapiente odio,
+            facilis repudiandae, ratione assumenda.
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-6-lg col-12-sm">
+                        <h3>Tarif</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+
+                    </div>
+                    <div class="col-6-lg col-12-sm">
+                        <h3>Moyens de Paiement</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6-lg col-6-mg col-12-sm">
+                        <h3>Livraison</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+
+                    </div>
+                    <div class="col-6-lg col-6-mg col-12-sm">
+                        <h3>Echanges et Remboursement</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6-lg col-12-sm">
+                        <h3>Annulation</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+
+                    </div>
+                    <div class="col-6-lg col-12-sm">
+                        <h3>Confidentialité et Données Personnelles</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae quisquam earum blanditiis
+                        repellendus
+                        explicabo minima. Illum necessitatibus asperiores reprehenderit deleniti sequi labore eveniet
+                        sapiente odio,
+                        facilis repudiandae, ratione assumenda.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <!-- Titre + bande -->
+        <div class="container-fluid " id="titreFooter">
+            <div class="row">
+                <div class="col-4">
+                    <div id="trait"></div>
+                </div>
+                <div class="col-4">
+                    <a href="index.html" id="titleFooter">
+                        <h2>Les Petites Robes</h2>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <div id="trait"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col 4" id="reseauxSociaux">
+            <ul class="nav justify-content-center">
+                <div class="row">
+                    <!-- <li class="nav-item col-4">
+            <a class="nav-link" href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="nav-item col-4">
+            <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+          </li> -->
+                    <li class="nav-item col-4">
+                        <a class="nav-link" href="https://instagram.com/les_petites_robes?igshid=1d0o2fq9rh0vc"><i
+                                class="fab fa-instagram fa-lg"></i></a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="container" id="menuFooter">
+            <div class="row">
+
+                <div class="col 4 d-flex justify-content-start">
+                    <ul class="nav flex-column" id="menuFooter">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#boutique">Boutique</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#titreAPropos">A propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+                <ul class="nav justify-content-end flex-sm-column  col-4" id="sav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="commande.html">Commandes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="livraison.html">Livraison et Retours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cgv.html">Conditions Générales de Vente</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- Formulaire Newsletter -->
+        <form class="d-flex justify-content-center" id="formNews">
+            <div class="form-group">
+                <label for="mailNews" class="d-flex justify-content-center">Rejoignez notre Newsletter</label>
+
+                <div class="form-row align-items-center">
+                    <div class="col-auto">
+                        <input type="email" class="form-control" id="mailNews" aria-describedby="emailHelp"
+                            placeholder="Email">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Souscrire</button>
+                </div>
+            </div>
+        </form>
+
+        <p class="d-flex justify-content-center"><small>© 2020 by Les Petites Robes</small>
+        </p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
