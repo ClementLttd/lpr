@@ -7,7 +7,7 @@ html {
 
 *{
     font-family: 'Poiret One', cursive;
- 
+
 }
 
  h1{
@@ -20,11 +20,11 @@ html {
  h1:hover{
      text-decoration: none;
  }
- 
+
  h2{
      font-size: 40px;
      font-family: 'Sacramento', cursive;
-     
+
  }
  h5{
      text-align: center;
@@ -32,7 +32,7 @@ html {
 
 i{
     color: black;
-    
+
 }
 #sav, #menuFooter{
     text-align: center;
@@ -41,7 +41,7 @@ i{
 li{
     padding-left: 30px;
     padding-right: 30px;
-    
+
 }
 
 #boutonBoutique{
@@ -69,12 +69,12 @@ li{
     margin-top: 70px;
     text-align: center;
     margin-bottom: 20px;
-    
+
 }
 #titleFooter{
     text-decoration: none;
     color: black;
-    
+
 }
 
 a{
@@ -105,7 +105,7 @@ a:hover{
 #aPropos{
     display: flex;
     text-align: justify;
-        
+
 }
 #aProposTexte{
     background-color: white;
@@ -115,7 +115,7 @@ a:hover{
 form input, textarea{
     border-radius: 95px;
     margin: 5px;
-    
+
 }
 
 .card{
@@ -169,12 +169,17 @@ form input, textarea{
 #sidebarCollapse{
     margin-left: 10vw;
     margin-top: 1vh;
-    
+
 }
 
 .banner{
     filter: hue-rotate(150deg);
 
+}
+
+#menuFooter{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -198,7 +203,7 @@ form input, textarea{
 
 #navigationBar{
     background-color: white;
-    
+
 }
 
 /* Navbar end */
@@ -218,7 +223,7 @@ form input, textarea{
     color: black;
     transition: all 0.3s;
     overflow-y: scroll;
-    
+
 }
 
 #sidebar.active {
@@ -242,7 +247,7 @@ form input, textarea{
 
 #dismiss:hover {
     background: #fff;
-    
+
 }
 
 .overlay {
@@ -265,7 +270,7 @@ form input, textarea{
     text-align: center;
     background: white;
     color: black;
-    
+
 }
 
 #sidebar ul.components {
@@ -307,6 +312,7 @@ a[data-toggle="collapse"] {
     #panier{
         margin-top: 1.5px;
     }
+
 }
 @media screen and (max-width:426px){
     .card .btn{
@@ -324,35 +330,36 @@ a[data-toggle="collapse"] {
 }
 
 @media screen and (max-width:768px){
-   
-    
+
+
     h1{
         font-size: 9vw;
         margin-bottom: 0px;
     }
-   
+
     .navbar-toggler{
         display: block;
-        position: sticky;
-        margin-left: 5vw;
-        margin-right: 50vw;
+        position: relative;
+        margin-left: 46%;
+        margin-bottom: 0px;
+        /* margin-right: 50vw; */
     }
     .navbar-collapse{
-        
+
         display: block;
     }
-        
+
     .navbar-collapse .collapse {
-        display: none;
+        display: inline;
         }
         .navbar-nav {
             float: none!important;
             margin: 7.5px -15px;
             }
-            
+
 
     #sidebarCollapse{
-        margin-right: 40px;
+        /* margin-right: 40px; */
         margin-left: 50vw;
         margin-top: 2px;
         position: sticky;
@@ -374,21 +381,25 @@ a[data-toggle="collapse"] {
     }
 
     .navbar{
-        margin-right: 10vw;
-        
-    } 
+        /* margin-right: 10vw; */
+
+    }
 
     .card .btn{
         font-size: medium;
     }
 
-    
+    #titreBoutique{
+        margin-top: 20px;
+    }
+
+
 }
 
 
 .icon{
     position: relative;
-   
+
 }
 
 
@@ -444,7 +455,7 @@ a[data-toggle="collapse"] {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
 
 /* Page Livraison */
@@ -463,5 +474,5 @@ a[data-toggle="collapse"] {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }

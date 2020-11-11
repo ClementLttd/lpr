@@ -24,26 +24,29 @@
 </head>
 
 <body>
+<!--  
+ Sidebar Panier 
+ <div class="wrapper">
 
-  <!-- Sidebar Panier -->
-  <div class="wrapper">
+  <nav id="sidebar">
 
-    <nav id="sidebar">
+    <div id="dismiss">
+      <i class="fas fa-angle-right"></i>
+    </div>
 
-      <div id="dismiss">
-        <i class="fas fa-angle-right"></i>
-      </div>
+    <div class="sidebar-header">
+      <h3>Panier</h3>
+      <hr>
+    </div>
+  </nav>
 
-      <div class="sidebar-header">
-        <h3>Panier</h3>
-        <hr>
-      </div>
-    </nav>
+   Dark Overlay element 
+  <div class="overlay"></div>
+</div>
 
-    <!-- Dark Overlay element -->
-    <div class="overlay"></div>
-  </div>
 
+-->
+ 
 
 
   <!-- Titre -->
@@ -58,9 +61,9 @@
 
 
   <!-- Navbar -->
-  <div class="container" id="navigationBar">
+  <!-- <div class="container-fluid" id="navigationBar">
     <div class="row">
-      <!-- Bouton inscription -->
+      Bouton inscription
       <div class="col-2" id="connexion">
         <a class="nav-link" data-toggle="modal" data-target="#modaleLogIn" id="meConnecterBtn"><i
             class="far fa-user fa-lg"></i><span id="meConnecterTxt"> Log In</span> </a>
@@ -73,8 +76,8 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-              <!-- Formulaire inscription modale -->
-              <div class="modal-body">
+              k Formulaire inscription modale -->
+              <!-- <div class="modal-body">
                 <form>
                   <div class="form-group">
                     <label for="emailLogin">Email</label>
@@ -94,7 +97,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-white bg-white">
@@ -109,7 +112,7 @@
               <a class="nav-link" href="index.html">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html#boutique">Boutique</a>
+              <a class="nav-link" href="index.html#boutique">Vitrine</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#titreAPropos">A propos</a>
@@ -122,13 +125,13 @@
 
       </nav>
 
-      <!-- Panier -->
+      <!-- Panier
       <div class="col-1" id="panier">
         <a class="nav-link" id="sidebarCollapse" href="#"><i class="fas fa-cart-arrow-down fa-lg"></i></a>
       </div>
 
-    </div>
-  </div>
+    </div> 
+  </div>-->
 
 
   <main>
@@ -177,7 +180,7 @@
           <div id="trait"></div>
         </div>
         <div class="col-4 d-flex justify-content-center" id="boutique">
-          <h2>Boutique</h2>
+          <h2>Vitrine</h2>
         </div>
         <div class="col-4">
           <div id="trait"></div>
@@ -202,13 +205,13 @@
                 <div class="card mb-2">
                   <img src="img/img robe.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Robe 1</h5>
+                    <h5 class="card-title">Louise</h5>
                     <p class="card-text">Robe en coton</p>
-                    <p class="card-text">29.99€</p>
+                    <p class="card-text">49.99€</p>
 
                     <!-- Bouton ajouter au panier -> ouvre une modale -->
                     <a href="#" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
-                      data-target="#modalRobe1">Ajouter au panier</a>
+                      data-target="#modalRobe1">En savoir plus</a>
 
                     <!-- Modale -->
                     <div class="modal" id="modalRobe1" tabindex="-1">
@@ -278,7 +281,7 @@
 
                     <!-- Bouton ajouter au panier -> ouvre une modale -->
                     <a href="#" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
-                      data-target="#modalRobe2">Ajouter au panier</a>
+                      data-target="#modalRobe2">En savoir plus</a>
                     <div class="modal" id="modalRobe2" tabindex="-1">
                       <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
@@ -342,7 +345,7 @@
                     <p class="card-text">29.99€</p>
                     <!-- Bouton ajouter au panier -> ouvre une modale -->
                     <a href="#" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
-                      data-target="#modalRobe3">Ajouter au panier</a>
+                      data-target="#modalRobe3">En savoir plus</a>
                     <div class="modal" id="modalRobe3" tabindex="-1">
                       <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
@@ -411,7 +414,7 @@
                     <p class="card-text">29.99€</p>
                     <!-- Bouton ajouter au panier -> ouvre une modale -->
                     <a href="#" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
-                      data-target="#modalRobe4">Ajouter au panier</a>
+                      data-target="#modalRobe4">En savoir plus</a>
                     <div class="modal" id="modalRobe4" tabindex="-1">
                       <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
@@ -475,7 +478,7 @@
                     <p class="card-text">29.99€</p>
                     <!-- Bouton ajouter au panier -> ouvre une modale -->
                     <a href="#" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
-                      data-target="#modalRobe5">Ajouter au panier</a>
+                      data-target="#modalRobe5">En savoir plus</a>
                     <div class="modal" id="modalRobe5" tabindex="-1">
                       <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
@@ -539,7 +542,7 @@
                     <p class="card-text">29.99€</p>
                     <!-- Bouton ajouter au panier -> ouvre une modale -->
                     <a href="#" class="btn btn-primary d-flex justify-content-center" data-toggle="modal"
-                      data-target="#modalRobe6" aria-disabled="true">Ajouter au panier</a>
+                      data-target="#modalRobe6" aria-disabled="true">En savoir plus</a>
                     <div class="modal" id="modalRobe6" tabindex="-1">
                       <div class="modal-dialog modal-dialog-centered modal-lg">
                         <div class="modal-content">
@@ -614,11 +617,11 @@
     <br />
 
     <!-- Bouton boutique -->
-    <div class="container -sm d-flex justify-content-center" id="boutonBoutique">
+    <!-- <div class="container -sm d-flex justify-content-center" id="boutonBoutique">
       <button type="button" class="btn btn-info" id="btnBoutique">
         <a href="lien/boutique.html">Boutique</a>
       </button>
-    </div>
+    </div> -->
 
 
 
@@ -744,16 +747,16 @@
       </ul>
     </div>
 
-    <div class="container" id="menuFooter">
+    <!-- <div class="container" id="menuFooter">
       <div class="row">
 
-        <div class="col 4 d-flex justify-content-start">
-          <ul class="nav flex-column" id="menuFooter">
+         <div class="col 4 d-flex justify-content-start"> -->
+          <ul class="nav justify-content-center" id="menuFooter">
             <li class="nav-item">
               <a class="nav-link" href="#accueil">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#boutique">Boutique</a>
+              <a class="nav-link" href="#boutique">Vitrine</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#titreAPropos">A propos</a>
@@ -762,11 +765,11 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-        </div>
+        <!-- </div> -->
 
 
 
-
+<!-- 
         <ul class="nav justify-content-end flex-sm-column  col-4" id="sav">
           <li class="nav-item">
             <a class="nav-link" href="commande.html">Commandes</a>
@@ -781,9 +784,9 @@
             <a class="nav-link" href="cgv.html">Conditions Générales de Vente</a>
           </li>
 
-        </ul>
+        </ul> 
       </div>
-    </div>
+    </div>-->
 
     <br>
 
